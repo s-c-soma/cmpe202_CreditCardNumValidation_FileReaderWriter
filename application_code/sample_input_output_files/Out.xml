@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <row>
+        <CardNumber>#$%$</CardNumber>
+        <CardType>Invalid</CardType>
+        <Error>Error</Error>
+    </row>
+    <row>
+        <CardNumber>341000000000000</CardNumber>
+        <CardType>AmericanExpress</CardType>
+        <Error>None</Error>
+    </row>
+    <row>
+        <CardNumber/>
+        <CardType>Invalid</CardType>
+        <Error>Error</Error>
+    </row>
+    <row>
+        <CardNumber>4100000000000000</CardNumber>
+        <CardType>Visa</CardType>
+        <Error>None</Error>
+    </row>
+    <row>
+        <CardNumber>41000fd0000000000</CardNumber>
+        <CardType>Invalid</CardType>
+        <Error>Error</Error>
+    </row>
+    <row>
+        <CardNumber>1</CardNumber>
+        <CardType>Invalid</CardType>
+        <Error>Error</Error>
+    </row>
+    <row>
+        <CardNumber>6.01E+15</CardNumber>
+        <CardType>Invalid</CardType>
+        <Error>Error</Error>
+    </row>
+</root>

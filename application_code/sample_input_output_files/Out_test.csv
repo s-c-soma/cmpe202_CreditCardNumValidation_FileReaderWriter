@@ -1,0 +1,3 @@
+CardNumber,CardType,Error
+,Invalid,Error
+5000000000000000,Invalid,Error

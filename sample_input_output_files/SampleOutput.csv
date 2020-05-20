@@ -1,0 +1,62 @@
+CardNumber,CardType,Error
+5.41E+15,MasterCard,None
+4.12E+12,Visa,None
+3.41E+14,AmericanExpress,None
+6.01E+15,Discover,None
+0.00E+00,Invalid,InvalidCardNumber
+
+
+-----------------
+5100000000000000,6/20/2030,Richard1 //master
+5500000000000000,6/20/2030,Richard1 //master
+5000000000000000,6/20/2030,Richard2 //invalid 
+5600000000000000,6/20/2030,Richard3 //invalid
+4100000000000000,6/20/2030,Richard4 //visa
+4000000000001,6/20/2030,Richard5 //visa
+4000000000001999,6/20/2030,Richard6 //visa
+400000000000,6/20/2030,Richard7 //invalid 
+3000000000001,6/20/2030,Richard8 //invalid 
+340000000000000,6/20/2030,Richard9 //amx
+370000000000000,6/20/2030,Richard10 //amx
+34000000000000,6/20/2030,Richard11 //invalid -amx
+6011000000000000,6/20/2030,Richard12 //discover
+601100000000000,6/20/2030,Richard13 //invalid discover
+6110000000000000,6/20/2030,Richard14 //invalid discover
+------------------------------------------
+MasterCard-First digit is a 5, second digit is in range 1 through 5 inclusive. Only valid length of number is 16 digits.
+Visa-First digit is a 4. Length is either 13 or 16 digits.
+AmericanExpress-First digit is a 3 and second digit a 4 or 7. Length is 15 digits.
+Discover-First four digits are 6011. Length is 16 digits.
+--------------------------------------------------------------------
+[
+  {
+    "CardNumber": 5410000000000000,
+    "ExpirationDate": "3/20/2030",
+    "NameOfCardholder": "Alice"
+  },
+  {
+    "CardNumber": 4120000000000,
+    "ExpirationDate": "4/20/2030",
+    "NameOfCardholder": "Bob"
+  },
+  {
+    "CardNumber": 341000000000000,
+    "ExpirationDate": "5/20/2030",
+    "NameOfCardholder": "Eve"
+  },
+  {
+    "CardNumber": 6010000000000000,
+    "ExpirationDate": "6/20/2030",
+    "NameOfCardholder": "Richard"
+  }
+]
+---------------------------------------------------------
+validations remanining
+
+1. blank line before csv header
+2. all exception handeling 
+3. check if cc number is emmpty- what should i do? skip or write invalid
+4. alphanumeric cc number check?
+5. json - cc missing value
+6. json- cc missing tag
+7. xml file blank row at first line

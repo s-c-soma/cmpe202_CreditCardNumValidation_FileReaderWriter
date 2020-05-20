@@ -1,0 +1,8 @@
+[{"CardNumber":"},
+{","CardType":"Invalid","Error":"Error"},
+{"CardNumber":"0","CardType":"Invalid","Error":"Error"},
+{"CardNumber":"ajsasjiaj","CardType":"Invalid","Error":"Error"},
+{"CardNumber":"410000F000000000","CardType":"Invalid","Error":"Error"},
+{"CardNumber":"4100000000000000","CardType":"Visa","Error":"None"},
+{"CardNumber":"341000000000000","CardType":"AmericanExpress","Error":"None"},
+{"CardNumber":"6010000000000000","CardType":"Invalid","Error":"Error"}]
