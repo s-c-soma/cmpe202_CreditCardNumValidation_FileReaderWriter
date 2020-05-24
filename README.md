@@ -1,5 +1,5 @@
-# "individual-project-s-c-soma" 
-Credit Card Problem + Generic File Read-Write
+# Credit Card Problem + Generic File Reader-Writer
+
 
 This application is built in Spring Boot using Maven as a part of SW System Engineering [CMPE202] individual project assignment. This is not a web application. Reason for using Sprint Boot is, I am using the same web framework for group project also. This application has 4 modules. These are designed in such a generic way that in future it is extendible to support with minimal changes:
 - 1. Different types of file by extending classes [now only supports csv/xml/json] 
