@@ -9,7 +9,6 @@ This application is built in Spring Boot using Maven as a part of SW System Engi
 
 > Download from github and unzip the folder/code 
 
-> ** All the validations and contraints confirmed my Professor/TA are applicable here.
 ----------------------------------------------------------------
 ## **Design Part 1:**
 > Class Diagram Location: __"individual-project-s-c-soma\design\design_part_1\"__
