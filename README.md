@@ -1,7 +1,7 @@
-# Credit Card Number Verification + Generic File Reader-Writer System
+# Credit Card Number Validation + Generic File Reader-Writer System
 
 
-This application is built in Spring Boot using Maven as a part of SW System Engineering [CMPE202] individual project assignment. This is not a web application. Reason for using Sprint Boot is, I am using the same web framework for group project also. This application has 4 modules. These are designed in such a generic way that in future it is extendible to support with minimal changes:
+This application is built in Spring Boot using Maven as a part of SW System Engineering [CMPE202] individual project assignment. This application has 4 modules. These are designed in such a generic way that in future it is extendible to support with minimal changes:
 - 1. Different types of file by extending classes [now only supports csv/xml/json] 
 - 2. Different attributes of Input/Output file
 - 3. Different validation for different types of credit cards
